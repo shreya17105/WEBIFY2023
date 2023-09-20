@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b83b53302e.js" crossorigin="anonymous"></script>
+    <style>
+         body{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+.ticket{
+    display: flex;
+    width: max-content;
+    border: 2px ridge black;
+    text-align: center;
+}
+.inputs{
+    padding: 10px;
+width: 50%;
+border-right: 2px solid black;
+text-align: center;
+}
+.bill{
+    padding: 10px;
+    text-align: center;
+    width: max-content;
+}
+    </style>
+</head>
+<body>
+    <h1>Your <i class="fa-solid fa-train fa-2xl"></i> Travel Details:</h1>
+    <br>
+    <div class="ticket">
+     
+        <div class="inputs">
+           <p>From: Current Location</p>
+           <p>To: Destination 1</p>
+           <p>Date of travelling: XXX</p>
+           <p>Class: XXX</p>
+           <p>Berth: XXX</p>
+        </div>
+
+     <div class="bill">
+    <pre>
+    Ticket Fare:              XXX.0 (rupees)
+    Convenience Fee:          XX.0  (rupees)
+    Travel Insurance Premium: X.0   (rupees)
+    <hr>
+    Total Fare:               XXX.0 (rupees)
+    <hr>
+</pre>
+     </div>
+</div>
+
+</body>
+</html>

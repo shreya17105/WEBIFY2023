@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+body{
+    padding-top: 0;
+    font-family: 'Rye', cursive;
+    background-color: rgba(211, 211, 211, 0.492);
+    /* background-color: rgba(135, 206, 250, 0.49); */
+}
+html{
+    padding-top: 0;
+}
+.nav img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+   
+}
+.head{
+    padding-top: 0;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.mid{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.mid h1{
+    padding-top: 0;
+    text-align: center;
+}
+.nav{
+    width: 80vw;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    align-items: center;
+}
+h2{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Rye', cursive;
+}
+a:visited{
+    color: black;
+}
+
+.services{
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    text-align: center;
+}
+.head{
+    border-bottom: 2px solid black;
+    height: fit-content;
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+    /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+    /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
+    background-image: linear-gradient(135deg, #c7c8c9 0%, #929cac 100%);
+    position: relative;
+}
+
+.reg{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.reg button{
+    background-color: navy;
+  
+    border-radius: 5%;
+}
+.reg button a{
+    color: White !important;
+}
+.reg button :hover{
+   text-shadow: 2px 2px 5px cornflowerblue;
+}
+
+
+/* TRAIN TICKETS */
+#frmcont{
+display: flex;
+    justify-content: center;
+    align-items: center; 
+   width: 70vw;
+}
+#Train{
+   
+    width:100%;
+    height: 100%;
+    padding:  10px 0;
+    box-sizing: border-box;
+    border: 5px ridge gray;
+    /* background-image: linear-gradient(120deg, #f6d4658d 0%, #fd9f857c 100%); */
+    /* background-image: linear-gradient(120deg, #89f6fe6f 0%, #66a6ff6b 100%); */
+    background-image: linear-gradient(135deg, #c7c8c9 0%, #929cac 100%);
+    backdrop-filter: blur(5px);
+}
+
+.traintct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  gap: 10px;    
+}
+.traintct img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.Form{
+    padding-top: 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items:center;
+   
+   
+}
+.element{
+    display: flex;
+}
+.print{
+    background-color: gray;
+}
+/* GGRRIIDD */
+#gallery{
+    display: grid;
+    width: 70vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px; 
+    row-gap: 10px;         
+    grid-template-areas: "img1 img2 img5 "
+                         "img3 img4 img6";
+}
+#gallery img{
+    padding-top:0 ;
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 10px black;
+}
+.i1{
+    grid-area: img1;
+}
+.i2{
+    grid-area:img2;
+}
+.i3{
+    grid-area:img3;
+}
+.i4{
+    grid-area:img4;
+}
+.i5{
+  grid-area:img5;
+}
+.i6{
+    grid-area:img6;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* flex-direction: row-reverse; */
+    flex-direction: column-reverse;
+}
+/* BACKGROUND FORM */
+  /* #frmcont::after{
+    content: ""; 
+    position: absolute;
+    width: 25%;
+    height: 25%;
+   background-image: url(./t1.png);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   z-index: -1; 
+   background-position: center;
+  } */
+
+ /* PART 2 */
+.p2 h1{
+    font-size: 2rem;
+    display: inline;
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    width: 50vw;
+    gap: 10px;
+    justify-content:center
+}
+.suit{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+@media (max-width:450px) {
+.p2 h1{
+ font-size: 1.6rem;
+ text-align: center;
+}
+}
+
+/* CARDS */
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    /* width: 70vw; */
+    padding-top: 10px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  background-color: lightgray;
+     width: 350px; 
+     height: fit-content;
+     padding-top: 0;
+    border: 5px ridge grey;
+    border-radius: 2%;
+}
+.c img{
+padding-top: 0;
+width: 100%;
+}
+.image , .contents{
+    padding-top: 0;
+}
+.contents{
+    text-align: center;
+}
+
+/* FOOTER */
+.conect{
+    font-weight: bolder;
+    padding-top: 0;
+    border-top: 2px ridge black;
+    padding: 0px 10px;
+    /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+    /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+    background-image: linear-gradient(135deg, #c7c8c9 0%, #929cac 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.icons{
+    width:30%;
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 5px;
+}
+/* CSSSSSS */
+button{
+    width: auto;
+}
+button:hover{
+transform: scale(1.1,1.1);
+}
+i:hover{
+    transform: scale(1.1,1.1);
+}
+a:hover{
+    transform: scale(1.2,1.2);
+    text-shadow: 2px 2px 5px black;
+}
+img:hover{
+    transform: scale(1.1,1.1);
+}
+.c img:hover{
+transform: none;
+}
+#gallery img:hover {
+    transform: scale(1.01,1.01);
+}
+
+/* RESPONSIVE */
+
+@media (max-width:1510px) {
+   
+    main{
+        flex-wrap: wrap-reverse;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+#gallery{
+    width: 70vw;
+}
+.traintct h2{
+width: 40%;
+text-align: center;
+}
+#frmcont{
+    width: 70vw;
+}
+}
+/* GATTEY AND FORM WIDTH ADJUSTMENT */
+@media (max-width:650px){
+
+    #frmcont{
+        width: 100vw;
+    }
+    #gallery{
+        width: 100vw;
+    }
+}
+
+/* HEADER NAD CARDS RESPONSIVE FOR PHONE  */
+@media (max-width:570px) {
+    .head h1 ,h2 {
+        font-size: 15px;
+    }
+    .head a{
+        font-size: 12px;
+    }
+    .head img{
+        width: 100px;
+        height: 100px;
+    }
+    .nav{
+        width: 100vw;
+    }
+    .c{
+        width: 300px !important;
+    }
+}
+
+/*  DEALING WITH SIZE OF IMAGES IN FORM FOR RESPONSIVENESS */
+@media (max-width:450px) {
+    .traintct img{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    label,h2{
+        font-size: 12px;
+    }
+    #gallery{
+        width: 90vw !important;
+    }
+}
